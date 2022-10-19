@@ -6,9 +6,6 @@ def combsort(lista):
     indice = 0
     while indice+gap < n:
       if lista[indice] > lista[indice+gap]:#troca
-        #aux = lista[indice+gap]
-        #lista[indice+gap]=lista[indice]
-        #lista[indice]=aux
         lista[indice],lista[indice+gap]=lista[indice+gap],lista[indice]
         indice = -1
       indice +=1 #incremento o indice
